@@ -1,0 +1,66 @@
+.marContainer {
+    width: 100%;
+    height: 414px;
+    padding: 5px 0;
+    background: #313139;
+    margin: 10px 0 0 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid gray;
+    overflow: hidden;
+}
+
+.marulelement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 0 0 0 0;
+    padding: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation: slide 1.2s linear 0 infinite;
+    animation: slide 9s linear infinite;
+}
+
+.marulelement:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.marulelement li {
+    width: 25vw;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    height: 400px;
+    margin-right: 2px;
+    border: 2px solid silver;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.marulelement li img {
+    width: 100%;
+    height: 100%;
+}
+
+.marulelement li:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+
+}
+@-webkit-keyframes slide {
+    100% {       
+        -webkit-transform: translateX(-153vw);
+        transform: translateX(-153vw);
+    }
+}
+@keyframes slide {
+    100% {       
+        -webkit-transform: translateX(-153vw);
+        transform: translateX(-153vw);
+    }
+}

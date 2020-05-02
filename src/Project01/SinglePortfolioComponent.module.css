@@ -1,0 +1,44 @@
+.port{
+    width: 300px;
+    height: 300px;
+    margin: 10px 5px;
+    background: #382c39;
+    padding: 5px 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: rotateX(0deg) rotateY(0deg) scale(1);
+    transform: rotateX(0deg) rotateY(0deg) scale(1);
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    overflow: hidden;
+}
+.port img{
+    width: 297px;
+    height: 250px;
+    margin: 0 0 5px 0;
+    border-radius: 10px;
+}
+.linksdiv{
+    background: #343134;
+    width: 297px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+}
+.linksdiv a{
+    color: gray;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.push{
+    margin-left: auto;
+}
+.linksdiv a:hover{
+    color: white;
+}

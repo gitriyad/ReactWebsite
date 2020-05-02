@@ -1,0 +1,16 @@
+.portContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #151315;
+    border: 3px solid gray;
+    margin-bottom: 10px;
+}
+.headline{
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
